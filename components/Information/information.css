@@ -1,0 +1,13 @@
+.info{
+    margin-bottom: 1em;
+}
+
+.info span{
+    color: #4354f0dd;
+    font-weight: bold;
+}
+
+.info p {
+    margin-top: 0.4em;
+}
+

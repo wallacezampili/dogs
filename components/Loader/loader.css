@@ -1,0 +1,30 @@
+.loader{
+    background-color: #ffffff;
+    border-radius: 50%;
+    width: 4em;
+    height: 4em;
+    position: relative;
+    
+    
+}
+
+.loader::after{
+    content: "";
+    position: absolute;
+    background-image: linear-gradient(#4354f0dd, #fff 60%);
+    inset: -10px;
+    border-radius: 50%;
+    z-index: -1;
+    animation: 1s linear infinite rotate;
+    animation-delay: 0ms;
+}
+
+@keyframes rotate {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}
